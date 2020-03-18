@@ -38,4 +38,14 @@ if the related hash array value >1, which means the occurrence of the element is
 T(n) = O(n); S(n) = O(1)<br/>
 <br/>
 
-### 3.问题：给定一个数组A[0,1,...,n-1],请构建一个数组B[0,1,...,n-1],其中B中的元素B[i] = A[0] * A[1] * ... * A[i-1] * A[i+1] *...* A[n-1]。不能使用除法。（注意：规定B[0] = A[1] * A[2] * ... * A[n-1]，B[n-1] = A[0] * A[1] * ... * A[n-2];）<br/>
+### 3.问题：给定一个数组A[0,1,...,n-1],请构建一个数组B[0,1,...,n-1],其中B中的元素B[i] = A[0] * A[1] * ... * A[i-1] * A[i+1] *...* A[n-1]。不能使用除法。（注意：规定B[0] = A[1] * A[2] * ... * A[n-1]，B[n-1] = A[0] * A[1] * ... * A[n-2];）<br/><br/>
+Solution1 (General Solution):<br/>
+ B = mutiply B0 = 1  A1 A2 A3 A4 ... An<br/>
+             B1 = A0 1  A2 A3 A4 ... An<br/>
+             B2 = A0 A1 1  A3 A4 ... An<br/>
+                  .....................<br/>
+                  .....................<br/>
+             Bn = A0 A1 A2 A3 A4 ...  1<br/>
+Firstly calculate first part of Bn using B[n]_part1 = B[n-1]_part1 * A[n-1]<br/>
+Secondly calculate second part of Bn using B[n-1]_part2 = B[n]_part2 * A[n]<br/>
+T(n) = O(nlogn); S(n) = O(1)<br/>
