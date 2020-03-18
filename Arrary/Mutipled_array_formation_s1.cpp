@@ -55,7 +55,7 @@ public:
 int main()
 {
 	//Simple test cases
-        vector<int>  A1 = { 1,2,5,8,10,12 };
+    vector<int>  A1 = { 1,2,5,8,10,12 };
 	vector<int>  A2 = { -2,-1,0,1,2};
 	vector<int>  A3 = { 2,1,5,1,2 };
 	Solution Result1, Result2, Result3;
