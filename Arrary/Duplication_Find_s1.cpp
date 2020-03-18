@@ -20,7 +20,6 @@ public:
 		if (numbers == NULL) return false;
 		for (int i = 0; i <= length - 1; i++)
 		{
-			int a = numbers[i];
 			if (numbers[i] < 0 || numbers[i] > length - 1)
 				return false;
 		}
@@ -44,7 +43,7 @@ public:
 int main()
 {
 	// Test cases
-	// Results should beï¼š 1: true 2  2: false none 3: false out_of_range
+	// Results should be£º 1: true 2  2: false none 3: false out_of_range
 	int numbers1[] = { 6, 1, 2, 5, 3, 2, 4 };
 	int numbers2[] = { 6, 1, 2, 5, 3, 0, 4 };
 	int numbers3[] = { 6, 1, 2, 5, 3, 1, 7 };
