@@ -35,7 +35,7 @@ true if the input is valid, and there are some duplications in the array number;
 Solution1 (General Hash Solution):<br/>
 Use the hash array to count the number of occurrences of the element,<br/>
 if the related hash array value >1, which means the occurrence of the element is more than 1, record the element and return true.Otherwise return false.<br/>
-T(n) = O(n); S(n) = O(1)<br/>
+T(n) = O(n); S(n) = O(n)<br/>
 <br/>
 
 ### 3.问题：给定一个数组A[0,1,...,n-1],请构建一个数组B[0,1,...,n-1],其中B中的元素B[i] = A[0] * A[1] * ... * A[i-1] * A[i+1] *...* A[n-1]。不能使用除法。（注意：规定B[0] = A[1] * A[2] * ... * A[n-1]，B[n-1] = A[0] * A[1] * ... * A[n-2];）<br/><br/>
