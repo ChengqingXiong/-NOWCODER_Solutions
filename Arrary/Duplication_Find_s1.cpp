@@ -3,7 +3,7 @@
 
 // Solution 1 General hash way
 // Time:4ms  Space:488K
-// Time complexity:T(n) = O(n) (length)  Space complexity:S(n) = O(1)
+// Time complexity:T(n) = O(n) (length)  Space complexity:S(n) = O(n)
 #include <iostream> 
 using namespace std;
 
