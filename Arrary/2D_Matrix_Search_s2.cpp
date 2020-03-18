@@ -6,7 +6,7 @@
 
 // Solution 2 General_Cases Search  
 // Time:13ms  Space:1484K
-// Time complexity:T(n) = O(nlogn) (row * log2(column)) Space complexity:S(n) = O(1)
+// Time complexity:T(n) = O(nlogn) (row * log2(column))  Space complexity:S(n) = O(1)
 #include <iostream> 
 #include <vector>
 using namespace std;
