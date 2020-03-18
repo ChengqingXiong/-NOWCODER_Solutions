@@ -1,2 +1,2 @@
 # -NOWCODER_Solutions
-C++ Solutions of NOWCODER(牛客网)
+These are C++ Solutions of NOWCODER(牛客网)
