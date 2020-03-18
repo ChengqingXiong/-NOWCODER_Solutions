@@ -1,4 +1,4 @@
-3 Arrary Questions and Solutions 
+3 Arrary Questions and Solutions
 ====
 
 ### 1.问题:<br/>
