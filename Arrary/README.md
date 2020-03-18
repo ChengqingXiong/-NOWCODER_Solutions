@@ -18,10 +18,10 @@ If the target is smaller than the point, let the point go up; If the target is l
 T(n) = O(n); S(n) = O(1)<br/>
 <br/>
 2.问题:<br/>
-在一个长度为n的数组里的所有数字都在0到n-1的范围内。 数组中某些数字是重复的，但不知道有几个数字是重复的。<br/>  
-也不知道每个数字重复几次。请找出数组中任意一个重复的数字。 例如，如果输入长度为7的数组{2,3,1,0,2,5,3}，那么对应的输出是第一个重复的数字2。<br/>  
+在一个长度为n的数组里的所有数字都在0到n-1的范围内。 数组中某些数字是重复的，但不知道有几个数字是重复的。<br/>
+也不知道每个数字重复几次。请找出数组中任意一个重复的数字。 例如，如果输入长度为7的数组{2,3,1,0,2,5,3}，那么对应的输出是第一个重复的数字2。<br/>
 <br/>
-2.Find any duplication element in an array<br/>  
+2.Find any duplication element in an array<br/>
 Task: duplicate(int numbers[], int length, int* duplication)<br/>
 Array features: Every element is smaller than int(length-1) in the array. Numbers[length]<br/>
 Parameters:<br/>
@@ -32,7 +32,7 @@ Return value:<br/>
 true if the input is valid, and there are some duplications in the array number; otherwise false<br/>
 <br/>
 Solution1 (General Hash Solution):<br/>
-Use the hash array to count the number of occurrences of the element,<br/>  
+Use the hash array to count the number of occurrences of the element,<br/>
 if the related hash array value >1, which means the occurrence of the element is more than 1, record the element and return true.Otherwise return false.<br/>
 T(n) = O(n); S(n) = O(1)<br/>
 <br/>
