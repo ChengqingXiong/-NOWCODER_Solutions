@@ -50,6 +50,5 @@ int main()
 	cout << "The new string 1 after replacement is: " << str1 << endl;
 	cout << "The new string 2 after replacement is: " << str2 << endl;
 	cout << "The new string 3 after replacement is: " << str3 << endl;
-
 	return 0;
 }
