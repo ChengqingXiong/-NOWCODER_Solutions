@@ -6,10 +6,11 @@
 
 1.Replace space to %20 in a string <br/>
 Task: replaceSpace(char *str,int length)<br/>
-Parameter *str:<br/>
-Parameter length:<br/>
+Parameters:<br/>
+         *str: the input string<br/>
+         length: the length of the input string<br/>
 target:  an new string.<br/> 
 
 Solution1 (General_Cases Solution):<br/>
-Look up the target in each row by Binary Search, then go through (loop) all the rows.<br/>
-T(n) = O(nlogn); S(n) = O(1)<br/>
+Shift the elements and replace the space with %20 from the end to the beginning.<br/>
+T(n) = O(n); S(n) = O(1)<br/>
