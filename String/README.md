@@ -4,8 +4,8 @@
 ### 1.问题:<br/>
 ### 请实现一个函数，将一个字符串中的每个空格替换成“%20”。例如，当字符串为We Are Happy.则经过替换之后的字符串为We%20Are%20Happy。
 
-1.Search target in a 2D array<br/>
-Task: replaceSpace(char *str,int length) {<br/>
+1.Replace space to %20 in a string <br/>
+Task: replaceSpace(char *str,int length)<br/>
 Parameter *str:<br/>
 Parameter length:<br/>
 target:  an new string.<br/> 
