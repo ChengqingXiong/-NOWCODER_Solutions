@@ -22,8 +22,8 @@ T(n) = O(n); S(n) = O(1)<br/>
 Solution 1 Recursion Solution：<br/>
 Task: bool match(char* str, char* pattern)<br/>
 Parameters:<br/>
-         *str: the input string<br/>
-         *pattern: the pattern string for matching<br/>
+         + *str: the input string<br/>
+         + *pattern: the pattern string for matching<br/>
 Return value:<br/>
          true for matching and false for not matching<br/>
          
@@ -34,7 +34,7 @@ Return value:<br/>
 Solution 1 Recursion Solution：<br/>
 Task: bool isNumeric(char* string)<br/>
 Parameters:<br/>
-         *string: the input string<br/>
+         + *string: the input string<br/>
 Return value:<br/>
-         true for is numeric and false for not<br/>
+         + true for is numeric and false for not<br/>
 T(n) = O(n); S(n) = O(1)<br/>
