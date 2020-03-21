@@ -32,7 +32,7 @@ Solution 1 Recursion Solution：<br/>
 ### 请实现一个函数用来判断字符串是否表示数值（包括整数和小数）。例如，字符串"+100","5e2","-123","3.1416"和"-1E-16"都表示数值。 但是"12e","1a3.14","1.2.3","+-5"和"12e+4.3"都不是。 <br/>
 
 3.Judge if the string represents a numerical<br/>
-Solution 1 Recursion Solution：<br/>
+
 Task: bool isNumeric(char* string)<br/>
 Parameters:<br/>
          *string: the input string<br/>
@@ -40,4 +40,6 @@ Return value:<br/>
          true for is numeric and false for not<br/>
 <br/>
 Solution 1 General Solution：<br/>
+T(n) = O(n); S(n) = O(1)<br/>
+Solution 2 General Solution：<br/>
 T(n) = O(n); S(n) = O(1)<br/>
