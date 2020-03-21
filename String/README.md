@@ -6,8 +6,8 @@
 
 1.Replace space with %20 in a string <br/>
 Task: replaceSpace(char *str,int length)<br/>
-Parameters:<br/>
-         - str: the input string<br/>
+Parameters:
+         - *str: the input string<br/>
          - length: the length of the input string<br/>
 target:  an new string.<br/> 
 
