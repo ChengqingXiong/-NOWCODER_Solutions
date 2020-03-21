@@ -8,7 +8,7 @@
 Task: replaceSpace(char *str,int length)<br/>
 Parameters:<br/>
 &emsp;&emsp;*str: the input string<br/>
-         length: the length of the input string<br/>
+&emsp;&emsp;length: the length of the input string<br/>
 target:  an new string.<br/>
 <br/>
 Solution1 (General_Cases Solution):<br/>
@@ -21,10 +21,10 @@ T(n) = O(n); S(n) = O(1)<br/>
 2.Match regular expression of the input string and input pattern<br/>
 Task: bool match(char* str, char* pattern)<br/>
 Parameters:<br/>
-         *str: the input string<br/>
-         *pattern: the pattern string for matching<br/>
+&emsp;&emsp;*str: the input string<br/>
+&emsp;&emsp;*pattern: the pattern string for matching<br/>
 Return value:<br/>
-         true for matching and false for not matching<br/>
+&emsp;&emsp;true for matching and false for not matching<br/>
 <br/>
 Solution 1 Recursion Solution：<br/>
 
@@ -35,9 +35,9 @@ Solution 1 Recursion Solution：<br/>
 
 Task: bool isNumeric(char* string)<br/>
 Parameters:<br/>
-         *string: the input string<br/>
+&emsp;&emsp;*string: the input string<br/>
 Return value:<br/>
-         true for is numeric and false for not<br/>
+&emsp;&emsp;true for is numeric and false for not<br/>
 <br/>
 Solution 1 General Solution：<br/>
 T(n) = O(n); S(n) = O(1)<br/>
