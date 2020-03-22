@@ -25,8 +25,8 @@ T(n) = O(n); S(n) = O(1)<br/>
 
 Task: bool match(char* str, char* pattern)<br/>
 Parameters:<br/>
-&emsp;&emsp;*str: the input string<br/>
-&emsp;&emsp;*pattern: the pattern string for matching<br/>
+&emsp;&emsp;str: the input string<br/>
+&emsp;&emsp;pattern: the pattern string for matching<br/>
 Return value:<br/>
 &emsp;&emsp;true for matching and false for not matching<br/>
 <br/>
@@ -40,7 +40,7 @@ Solution 1 Recursion Solution：<br/>
 
 Task: bool isNumeric(char* string)<br/>
 Parameters:<br/>
-&emsp;&emsp;*string: the input string<br/>
+&emsp;&emsp;string: the input string<br/>
 Return value:<br/>
 &emsp;&emsp;true for is numeric and false for not<br/>
 <br/>
@@ -59,7 +59,7 @@ T(n) = O(n); S(n) = O(n)<br/>
 4.Find the first charater that only appears once<br/>
 Task: void Insert(char ch); char FirstAppearingOnce()<br/>
 Parameters:<br/>
-&emsp;&emsp;*string: ch: the input charater of a string<br/>
+&emsp;&emsp;string: ch: the input charater of a string<br/>
 Return value:<br/>
 &emsp;&emsp;the first charater that only appears once, if none, return # <br/>
 <br/>
