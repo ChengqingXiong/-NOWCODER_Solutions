@@ -42,7 +42,7 @@ Parameters:<br/>
 Return value:<br/>
 &emsp;&emsp;true for is numeric and false for not<br/>
 <br/>
-Solution 1 General Solution：<br/>
+Solution 1 Direct Solution：<br/>
 T(n) = O(n); S(n) = O(1)<br/>
-Solution 2 General Solution：<br/>
-T(n) = O(n); S(n) = O(1)<br/>
+Solution 2 String Solution：<br/>
+T(n) = O(n); S(n) = O(n)<br/>
