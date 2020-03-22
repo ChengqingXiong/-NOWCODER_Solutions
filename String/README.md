@@ -13,7 +13,7 @@ Parameters:<br/>
 &emsp;&emsp;length: the length of the input string<br/>
 target:  an new string.<br/>
 <br/>
-Solution1 (General_Cases Solution):<br/>
+Solution1 General_Cases Solution:<br/>
 Shift the elements and replace the space with %20 from the end to the beginning.<br/>
 T(n) = O(n); S(n) = O(1)<br/>
 
@@ -45,8 +45,11 @@ Return value:<br/>
 &emsp;&emsp;true for is numeric and false for not<br/>
 <br/>
 Solution 1 Direct Solution：<br/>
+Directly use the char* for judging.<br/>
 T(n) = O(n); S(n) = O(1)<br/>
+<br/>
 Solution 2 String Solution：<br/>
+Convert to the string type for judging.<br/>
 T(n) = O(n); S(n) = O(n)<br/>
 
 ### 4.问题:<br/>
@@ -61,4 +64,5 @@ Return value:<br/>
 &emsp;&emsp;the first charater that only appears once, if none, return # <br/>
 <br/>
 Solution 1 Hash Solution：<br/>
+Use a hash table to record the numbers of appearance of each charater.<br/>
 T(n) = O(n); S(n) = O(1)<br/>
