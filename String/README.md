@@ -64,5 +64,5 @@ Return value:<br/>
 &emsp;&emsp;the first charater that only appears once, if none, return # <br/>
 <br/>
 Solution 1 Hash Solution：<br/>
-Use a hash table to record the numbers of appearance of each charater.<br/>
+Use a hash table to record the numbers of appearance of each charater <br/>
 T(n) = O(n); S(n) = O(1)<br/>
