@@ -6,6 +6,7 @@
 ### 例如，当字符串为We Are Happy.则经过替换之后的字符串为We%20Are%20Happy。<br/>
 
 1.Replace space with %20 in a string <br/>
+
 Task: replaceSpace(char *str,int length)<br/>
 Parameters:<br/>
 &emsp;&emsp;*str: the input string<br/>
@@ -21,6 +22,7 @@ T(n) = O(n); S(n) = O(1)<br/>
 ### 例如，字符串"aaa"与模式"a.a"和"ab*ac*a"匹配，但是与"aa.a"和"ab*a"均不匹配 <br/>
 
 2.Match regular expression of the input string and input pattern<br/>
+
 Task: bool match(char* str, char* pattern)<br/>
 Parameters:<br/>
 &emsp;&emsp;*str: the input string<br/>
@@ -50,3 +52,13 @@ T(n) = O(n); S(n) = O(n)<br/>
 ### 4.问题:<br/>
 ### 请实现一个函数用来找出字符流中第一个只出现一次的字符。<br/>
 ### 例如，当从字符流中只读出前两个字符"go"时，第一个只出现一次的字符是"g"。当从该字符流中读出前六个字符“google"时，第一个只出现一次的字符是"l"。<br/>
+
+4. Find the first charater that only appears once<br/>
+Task: void Insert(char ch); char FirstAppearingOnce()<br/>
+Parameters:<br/>
+&emsp;&emsp;*string: ch: the input charater of a string<br/>
+Return value:<br/>
+&emsp;&emsp;the first charater that only appears once, if none, return #.<br/>
+<br/>
+Solution 1 Hash Solution：<br/>
+T(n) = O(n); S(n) = O(1)<br/>
