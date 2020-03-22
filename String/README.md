@@ -9,7 +9,7 @@
 
 Task: replaceSpace(char *str,int length)<br/>
 Parameters:<br/>
-&emsp;&emsp;*str: the input string<br/>
+&emsp;&emsp;str: the input string<br/>
 &emsp;&emsp;length: the length of the input string<br/>
 target:  an new string.<br/>
 <br/>
