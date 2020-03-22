@@ -10,7 +10,7 @@ public:
 	//        str: a string
 	//	      length: the length of the input string
 	// Return value:       
-	//        a new string
+	//        null
 	void replaceSpace(char* str, int length) {
 
 		// count the number of the space in the string
