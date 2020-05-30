@@ -14,7 +14,7 @@ struct ListNode {
 		val(x), next(NULL) {
 	}
 };
-
+ 
 class Solution {
 public:
 	ListNode* EntryNodeOfLoop(ListNode* pHead)
