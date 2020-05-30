@@ -7,7 +7,8 @@
 1.Search target in a 2D array<br/>
 Task: Find(int target, vector<vector<int>> array)<br/>
 Parameters:<br/>
-target:  an integer.<br/> 
+Return value:<br/>
+an integer.<br/> 
 array:   an 2D array, every element is an integer; In each row/column, element’s value increases from left to right/up to down.<br/>
 <br/>
 Solution1 (General_Cases Solution):<br/>
