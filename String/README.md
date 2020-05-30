@@ -11,7 +11,8 @@ Task: replaceSpace(char *str,int length)<br/>
 Parameters:<br/>
 &emsp;&emsp;str: the input string<br/>
 &emsp;&emsp;length: the length of the input string<br/>
-target:  an new string.<br/>
+Return value:<br/>
+&emsp;&emsp;an new string.<br/>
 <br/>
 Solution1 General_Cases Solution:<br/>
 Shift the elements and replace the space with %20 from the end to the beginning.<br/>
