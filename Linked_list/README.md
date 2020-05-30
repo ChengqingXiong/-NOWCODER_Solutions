@@ -53,7 +53,7 @@ Parameters:<br/>
 Return value:<br/>
 &emsp;&emsp;the new list after deleting the duplication node<br/>
 <br/>
-
+ 
 Solution 1 Common Solution<br/>
 Time:5ms  Space:480K<br/>
 Time complexity:T(n) = O(n)   Space complexity:S(n) = O(1)<br/>
