@@ -9,7 +9,8 @@
 Task: printListFromTailToHead(ListNode* head) <br/>
 Parameters:<br/>
 &emsp;&emsp;head: the head node of the list<br/>
-target:  a new list.<br/>
+Return value:<br/>
+&emsp;&emsp;a new list.<br/>
 <br/>
   
 Solution 1 Stack Solution<br/>
