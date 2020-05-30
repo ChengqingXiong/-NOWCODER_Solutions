@@ -7,9 +7,9 @@
 1.Search target in a 2D array<br/>
 Task: Find(int target, vector<vector<int>> array)<br/>
 Parameters:<br/>
+&emsp;&emsp;array: an 2D array, every element is an integer; In each row/column, element’s value increases from left to right/up to down.<br/>
 Return value:<br/>
-an integer.<br/> 
-array:   an 2D array, every element is an integer; In each row/column, element’s value increases from left to right/up to down.<br/>
+&emsp;&emsp;true for finding out the integer,false for not.<br/> 
 <br/>
 Solution1 (General_Cases Solution):<br/>
 Look up the target in each row by Binary Search, then go through (loop) all the rows.<br/>
@@ -27,11 +27,11 @@ T(n) = O(n); S(n) = O(1)<br/>
 Task: duplicate(int numbers[], int length, int* duplication)<br/>
 Array features: Every element is smaller than int(length-1) in the array. Numbers[length]<br/>
 Parameters:<br/>
-numbers:    an array of integers<br/>
-length:      the length of array numbers<br/>
-duplication:  (Output) the duplicated number in the array number<br/>
+&emsp;&emsp;numbers:    an array of integers<br/>
+&emsp;&emsp;length:      the length of array numbers<br/>
+&emsp;&emsp;duplication:  (Output) the duplicated number in the array number<br/>
 Return value:<br/>
-true if the input is valid, and there are some duplications in the array number; otherwise false<br/>
+&emsp;&emsp;true if the input is valid, and there are some duplications in the array number; otherwise false<br/>
 <br/>
 Solution1 (General Hash Solution):<br/>
 Use the hash array to count the number of occurrences of the element,<br/>
